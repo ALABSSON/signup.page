@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    color: blue;
+    background-color: rgb(151, 151, 191);
+
+}
+
+.bodycontainer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/isometric-programming-and-coding-technologies-vector-27311941.jpg);
+    opacity: .1;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card{
+    height: 600px;
+    width: 550px;
+    background-color: rgb(151, 151, 191);
+    box-shadow: 20px 20px 20px solid rgba(0, 0, 0, 0.564) ;
+    border-radius: 25px;
+    border: solid rgb(51, 51, 136) 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.logo{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    /* object-fit: cover; */
+}
+
+.logo img{
+    height: 40px;
+    width: 100px;
+}
