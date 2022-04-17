@@ -15,7 +15,7 @@ body{
 .bodycontainer{
     height: 100vh;
     width: 100%;
-    background-image: url(/images/4a6t7pmm323uaz9rv1rf.jpg);
+    background-image: url(/images/new\ immmmmmmm.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -39,9 +39,10 @@ body{
 }
 
 .left{
-    width: 25%;
+    width: 35%;
     height: 100%;
     display: flex;
+    align-items: center;
     justify-content: center;
     border-right: solid white;
 }
@@ -49,16 +50,17 @@ body{
 
 
 .left img{
-    height: 60px;
-    width: 160px;
+    height: 150px;
+    width: 300px;
+    border-radius: 25px;
 }
 
 
 .right{
-    width: 50%;
+    width: 60%;
     height: 100%;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 30px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -80,7 +82,7 @@ body{
 .input1 input{
     width: 45%;
     height: 30px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     outline: none;
@@ -100,7 +102,7 @@ body{
 .input2 input{
     width: 100%;
     height: 30px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     outline: none;
